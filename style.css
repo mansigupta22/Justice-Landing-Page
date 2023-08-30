@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+body{
+    background-color: #2B2922;
+    overflow: hidden;
+}
+/* ----Navbar------ */
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 2rem 8rem 4rem 7rem;
+}
+.navbar img{
+    height: 45px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    color: #8a8987;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0.6rem 0rem 0rem 25rem
+}
+.list .list-item:nth-child(1){
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.button{
+    background-color: transparent;
+    color: #8A7C32;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid #8A7C32;
+}
+
+/* ----Hero Section------ */
+.hero{
+    display: flex;
+    margin: 0rem 12rem 4rem 7rem;
+    gap: 4rem;
+}
+.hero-heading{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 4.9rem;
+}
+.hero-right{
+    color: #8a8987;
+    font-size: 1.35rem;
+    font-weight: 500;
+    width: 80%;
+    padding-left: 5rem;
+    padding-top: 1.8rem
+}
+.banner-container img{
+    height: 540px;
+    width: 100%;
+    object-fit: cover;
+    display:block;
+    object-position: center;
+}
