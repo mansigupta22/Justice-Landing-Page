@@ -16,7 +16,8 @@
 ### _Live Hosted Link 🚀_ : _[Justice Landing Page](https://justice-landing-page-e60.netlify.app/)_
 
 ## How the website looks like:
-![Look](./thumbnail.png)
+
+![LOOK](thumbnail.png)
 
 
 ## My Learnings
